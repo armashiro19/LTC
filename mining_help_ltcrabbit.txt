@@ -1,0 +1,17 @@
+CCMiner only works with nvidia graphic cards!
+
+1. Register at https://www.ltcrabbit.com
+2. Click on "Account" > "Worker" and create a worker (select X11 instead of scrypt)
+3. Right click on file "start_mining_ltcrabbit.bat" and click edit
+4. Enter your individual worker credentials and save the file
+5. Check the following page to determine the "Compute version" your GPU supports: https://developer.nvidia.com/cuda-gpus
+6. Depending on your compute version, change the name of the command to ccminer21.exe, ccminer30.exe, ccminer35.exe or , ccminer50.exe
+7. Download and install "Visual C++ Redistributable for Visual Studio 2012" from http://www.microsoft.com/en-us/download/details.aspx?id=30679 (Use X86 file: vcredist_x86.exe)
+8. Make sure you have installed latest drivers for your GPU: http://www.nvidia.de/Download/index.aspx?lang=en
+9. Double click on "start_mining_ltcrabbit.bat" to start mining
+
+
+--
+
+We provide this preconfigured start_mining_ltcrabbit.bat together with default CCMiner allow easy mining at LTCRabbit.com mining pool.
+Official CCMiner website and updates can be found here: https://github.com/cbuchner1/ccminer/releases
